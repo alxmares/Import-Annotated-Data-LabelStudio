@@ -64,6 +64,8 @@ C:\yolo\datasets\one\images
 
 6. Close Label Studio with ctrl+c.
 
+![](assets/ls_1.png)
+
 ## **Step 4: Convert YOLO Annotations**
 1. In Conda prompt, run the following command:
 
@@ -80,10 +82,11 @@ label-studio-converter import yolo -i /yolo/datasets/one -o output.json --image-
 ## **Step 5: Import Converted Annotations into Label Studio**
 1. Reopen Label Studio.
 2. In the project you created, go to Data Manager and select Import.
-3. Choose the output.json file for import.
-4. Go to Settings, then Label Interface.
+3. Choose the 'output.json' file for import.
+4. Go to `Settings`, then `Labeling Interface`.
 5. In the Code section, enter the appropriate template for your project. You can find templates [here](https://labelstud.io/guide/setup).
 
+![](assets/ls_2.png)
 ---
 ## **Troubleshooting Issues**
 If you encounter any issues with paths or image accessibility:
