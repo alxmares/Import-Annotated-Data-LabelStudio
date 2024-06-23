@@ -1,5 +1,6 @@
 # **Import Annotated Data to Label Studio**
-How to import Annotated data to Label-Studio
+
+This README provides a clear guide on how to load labeled datasets into Label Studio.
 
 ## **Prerequisites**
 
@@ -87,6 +88,12 @@ label-studio-converter import yolo -i /yolo/datasets/one -o output.json --image-
 5. In the Code section, enter the appropriate template for your project. You can find templates [here](https://labelstud.io/guide/setup).
 
 ![](assets/ls_2.png)
+
+## **Success**
+Congratulations! Your annotated dataset is now successfully integrated into Label Studio. You should now see your pre-annotated bounding boxes and be able to interact with your data seamlessly. Your Label Studio Project should look similar to this:
+
+![](assets/ls_3.png)
+
 ---
 ## **Troubleshooting Issues**
 If you encounter any issues with paths or image accessibility:
